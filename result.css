@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(242, 242, 242);
+}
+
+.header {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 80%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.currency-button {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-right: 7px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 120px;
+}
+
+.swap-button {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-right: 7px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 40px;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.base {
+    padding-top: 40px;
+}
+
+.target {
+    padding-top: 5px;
+}
+
+.base-price {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.target-price {
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 107, 53);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+}

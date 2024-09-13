@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-top: 80px;
+  width: 80%;
+  text-align: center;
+}
+
+.select-section {
+  margin-bottom: 30px;
+}
+
+.select-header {
+  font-size: 20px;
+}
+
+/* button {
+  all: unset;
+  outline: revert;
+  box-sizing: border-box;
+} */
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin-right: 7px;
+  padding: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  width: 120px;
+}
+
+.currency-code {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.currency-region {
+  padding: 0;
+  margin: 0;
+  margin-top: 3px;
+  font-size: 8px;
+  color: rgb(138, 138, 138)
+}
+
+.base-currency-button {
+ 
+}
+
+.base-currency-button.active {
+  background-color: rgb(139, 238, 159);
+  border: solid;
+  border-width: 1px;
+}
+
+.target-currency-button {
+ 
+}
+
+.target-currency-button.active {
+  background-color: rgb(139, 238, 159);
+  border: solid;
+  border-width: 1px;
+}
+
+.track-button {
+  display: flex;
+  justify-content: flex-end; /* Align the button to the right */
+  width: 60%; /* Make sure the container spans the full width */
+  margin-top: 30px; /* Add some space above the button */
+}
+
+#track-exchange {
+  background-color: rgb(0, 107, 53);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 13px;
+  border-radius: 50px;
+  transition: background-color 0.3s;
+}
